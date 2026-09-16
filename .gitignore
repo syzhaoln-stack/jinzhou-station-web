@@ -1,0 +1,4 @@
+bundle/
+_site/
+*.zip
+__pycache__/

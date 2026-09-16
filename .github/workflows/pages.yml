@@ -1,0 +1,44 @@
+name: Publish station demo
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Download the versioned web release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(python -c "import json; r=json.load(open('release.json')); assert r.get('ready') is True, 'Release bundle is not approved for deployment'; print(r['tag'])")
+          gh release download "$TAG" --pattern station-web.zip --dir bundle
+          python verify_release.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
