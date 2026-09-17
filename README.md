@@ -6,9 +6,15 @@
 - [打开 9 章实时三维预览](https://syzhaoln-stack.github.io/jinzhou-station-web/review/film-review.html)：逐章查看实时渲染画面与配音。
 - [进入三维交互系统](https://syzhaoln-stack.github.io/jinzhou-station-web/review/operations.html)：旋转缩放、铁路来货与转运、人车协同、门杆抬落、建筑开门疏散、反恐预警及侵线预警演练。
 
+在三维交互系统中选择「业务与物联」，可查看关联三维对象的作业台账、前置确认和资源占用，逐步演示正常接卸、停用区侵入、门机异常和仓库消防等场景。候选传感器点位与信号面板展示原始报文、解码值、信号质量、规则条件及处置记录；异常处置包含确认、派单、证据、独立复核和单独解封。
+
+网页可导出带当前三维视角的 HTML 报告、CSV 作业台账和 JSON 快照，也可从报告页打印或保存 PDF。原生 DOCX 报告和模拟报文 HTTP 接口仅在本地服务环境提供，GitHub Pages 运行浏览器独立仿真。接入方式见[说明](https://syzhaoln-stack.github.io/jinzhou-station-web/review/business-integration-guide.md)与 [OpenAPI 契约](https://syzhaoln-stack.github.io/jinzhou-station-web/review/business-api.openapi.json)。
+
 首次全景模型约 172 MB，加载时间取决于网络与设备性能。只观看成片可先打开视频页。
 
 路线、任务、姓名和应急过程为演示设定，不代表现场作业指令、实测疏散时长或机械施工图。
+
+业务台账、设备报文、岗位姓名和规则阈值均为虚构样本；传感器位置为待踏勘候选点位。尚未连接 95306、真实摄像头、消防主机或 PLC，不提供设备联锁控制或 24 小时后台监测。公开依据用于解释业务模式和协议结构，不代表金州场站的真实台账或已取得接口授权。
 
 ## 运行与发布
 
