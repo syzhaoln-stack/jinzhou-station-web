@@ -1,6 +1,19 @@
 {
   "ready": true,
+  "mode": "overlay",
   "tag": "web-20260927-2",
-  "bytes": 660437633,
-  "sha256": "d8c974136058369d72ec3e85d2fe325d6498dafc8fd18c70b672dbfe92f65730"
+  "source_commit": "ddb7deaaca7beb903fc9b7f4a38f9119c2730629",
+  "site_manifest_sha256": "8c9087d8f3c115c7b20016bd25788a402d48bf48073cd41a289fb74817250bd7",
+  "base": {
+    "tag": "web-20260927-1",
+    "bytes": 660397099,
+    "sha256": "dd76dd39d549277883fa0d54a56c124a9e0dab667204339a4d21db6d7beb1915",
+    "manifest_sha256": "ff0e4e69d1a9da86a26897cba07852309b004fffe8ee8b943bf3a36c1ab305e8"
+  },
+  "overlay": {
+    "directory": "overlay",
+    "manifest": "overlay-manifest.json",
+    "bytes": 3004,
+    "sha256": "30666601e35ba883fbe32283a64e28446536e43bf2aabd46e5c9fb143e523e23"
+  }
 }

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.0",
+  "siteName": "金桥铁路物流中心",
+  "publicName": "大连铁路物流中心金桥物流基地",
+  "identityStatus": "项目称谓与金桥站区域有空间互证；正式对外名称及管理边界仍需场站确认",
+  "address": "辽宁省大连市金州区海青岛街道钢铁路附近（金桥站区域）",
+  "addressStatus": "区域与邻近道路为地图定位线索；门牌号、对外接待入口及通信地址尚未核实",
+  "streetNumber": null,
+  "entranceCoordinates": null,
+  "operator": "中国铁路沈阳局集团有限公司大连铁路物流中心；公开报道涉及大连港营业部金桥班组",
+  "operatorStatus": "铁路媒体报道证实业务组织名称；不将其等同于土地权属或全部铁路设施管理单位",
+  "coordinates": {
+    "lat": 39.0344045,
+    "lon": 121.8029815417,
+    "crs": "WGS84 (EPSG:4326)",
+    "precision": "航线相机位置包围盒中心，用于场站区域定位；小数位数不代表测量精度，不是门岗或建筑物测量点",
+    "source": "S1"
+  },
+  "coordinateMatch": {
+    "name": "金桥",
+    "featureType": "railway=station",
+    "provider": "OpenStreetMap contributors",
+    "osmNodeId": 8756066326,
+    "lat": 39.0342382,
+    "lon": 121.8029683,
+    "crs": "WGS84 (EPSG:4326)",
+    "distanceFromPhotoBboxCenterM": 18.53,
+    "method": "Haversine，平均地球半径 6371008.8 m",
+    "status": "公共地图节点与航拍中心相距约 19 米，支持金桥站区域对应；不是法定边界或正式地址认证",
+    "source": "S2"
+  },
+  "modelOrigin": null,
+  "modelGeoreferenceStatus": "现有 GLB 为局部米制坐标 [OSGB X, OSGB Z, -OSGB Y]；尚未核定与 WGS84 的完整转换。区域地形模型原点不能用作场站 GLB 原点。",
+  "extent": {
+    "type": "camera-position-bbox",
+    "crs": "WGS84 (EPSG:4326)",
+    "south": 39.0289997778,
+    "north": 39.0398092222,
+    "west": 121.79390875,
+    "east": 121.8120543333,
+    "approxWidthM": 1567.28,
+    "approxHeightM": 1201.96,
+    "label": "航拍相机分布范围",
+    "isSiteBoundary": false,
+    "source": "S1"
+  },
+  "siteBoundary": null,
+  "cameraCoverage": {
+    "label": "航拍相机分布范围（不是场站边界）",
+    "crs": "WGS84 (EPSG:4326)",
+    "south": 39.0289997778,
+    "north": 39.0398092222,
+    "west": 121.79390875,
+    "east": 121.8120543333,
+    "approxWidthM": 1567.28,
+    "approxHeightM": 1201.96,
+    "isSiteBoundary": false,
+    "source": "S1"
+  },
+  "imageryDate": "2025-04-29",
+  "imageryType": "无人机实景航拍；不是实时卫星影像或气象云图",
+  "verifiedAt": "2026-09-27",
+  "mapLinks": [
+    {
+      "id": "osm-location",
+      "label": "查看地理位置（OpenStreetMap）",
+      "url": "https://www.openstreetmap.org/?mlat=39.0344045&mlon=121.8029815417#map=16/39.0344045/121.8029815417",
+      "type": "reference-map",
+      "coordinateInputCrs": "WGS84",
+      "note": "标记为航拍区域参考中心，不是接待入口。地图数据 © OpenStreetMap contributors，ODbL。"
+    },
+    {
+      "id": "esri-imagery",
+      "label": "查看卫星/航空影像（Esri）",
+      "url": "https://www.arcgis.com/apps/mapviewer/index.html?basemapUrl=https%3A%2F%2Fservices.arcgisonline.com%2FArcGIS%2Frest%2Fservices%2FWorld_Imagery%2FMapServer&center=121.8029815417%2C39.0344045&level=16&marker=121.8029815417%2C39.0344045",
+      "type": "external-imagery-viewer",
+      "coordinateInputCrs": "WGS84",
+      "note": "由地图提供方展示其影像及版权标注；此处未下载或复制影像，未核实覆盖区影像拍摄日期，不标记为实时。外部访问受网络和服务条件影响。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "项目航拍定位精核及逐图地理标签",
+      "url": null,
+      "projectEvidence": "video/location_audit.md；video/location_audit.json；video/photo_geotags.json",
+      "publisher": "项目原始航拍数据审计",
+      "publishedAt": "2026-09-15",
+      "claim": "2025-04-29 有效本站航拍 1059 张，其中航线图 1033 张；EXIF 明示 WGS84，相机范围及中心由逐图记录计算。"
+    },
+    {
+      "id": "S2",
+      "title": "OpenStreetMap 金桥铁路站节点 8756066326",
+      "url": "https://www.openstreetmap.org/node/8756066326",
+      "dataUrl": "https://api.openstreetmap.org/api/0.6/node/8756066326.json",
+      "publisher": "OpenStreetMap contributors",
+      "publishedAt": "2025-03-01",
+      "claim": "节点名称金桥，WGS84 纬度 39.0342382、经度 121.8029683，railway=station；距项目航拍中心约 18.53 米。节点的车务段 operator 标签不直接用于认定货场资产管理单位。"
+    },
+    {
+      "id": "S3",
+      "title": "OpenStreetMap Nominatim 航拍中心反向地理编码",
+      "url": "https://nominatim.openstreetmap.org/reverse?lat=39.0344045&lon=121.8029815417&format=jsonv2&zoom=16&accept-language=zh",
+      "publisher": "OpenStreetMap contributors / Nominatim",
+      "publishedAt": null,
+      "claim": "查询返回附近道路钢铁路、海青岛街道、金州区、大连市、辽宁省；返回的是道路要素，不是已核验的场站门牌地址。"
+    },
+    {
+      "id": "S4",
+      "title": "中通智运公铁联运班列成功首发：“金普制造”48小时内抵达安徽芜湖",
+      "url": "https://dalian.runsky.com/202604/15/c6272819.html",
+      "publisher": "大连日报 / 大连天健网",
+      "publishedAt": "2026-04-20",
+      "claim": "页面署日期为 2026-04-20（网址路径为 04/15）；报道使用大连铁路物流中心金桥物流基地名称，并描述汽车零部件等货物公铁联运业务。"
+    },
+    {
+      "id": "S5",
+      "title": "“接力”修箱提效率（铁路物流故事）",
+      "url": "https://peoplerail.com/newszb/html/2026-08/25/content_2_67531.htm",
+      "publisher": "人民铁道报",
+      "publishedAt": "2026-08-25",
+      "claim": "报道大连铁路物流中心大连港营业部金桥班组与金桥箱修点协作，包括破损箱台账、维修排序、检验及返空发运；可作为合作示范的实际业务依据。"
+    },
+    {
+      "id": "S6",
+      "title": "Use URL parameters to create and modify maps",
+      "url": "https://doc.arcgis.com/en/arcgis-online/reference/use-url-parameters.htm",
+      "publisher": "Esri ArcGIS Online Documentation",
+      "publishedAt": null,
+      "claim": "官方文档说明 World Imagery 外链参数、经纬度中心点及缩放级别设置；用于地图外链构造，不提供本站影像时相认证。"
+    }
+  ],
+  "notes": [
+    "正式汇报可写金桥铁路物流中心（项目称谓）/ 大连铁路物流中心金桥物流基地（公开报道称谓），场站确认后统一。",
+    "不能沿用旧候选金州物流基地的大连湾北街东100米地址；金州站、金马站、金桥站和金港站应分别核对。",
+    "接待导航必须另行核实入口；场站中心点不能作为车辆路线终点。",
+    "在高德等使用其他坐标参考的服务中，应由服务商提供的转换和接入方式处理；本记录未伪造 GCJ-02 或 BD-09 坐标。",
+    "区域影像适合展示交通联系；现场设备定位、电子围栏、淹没分析及面积统计，须先补齐实测控制点、模型配准和场站边界。",
+    "本轮读取的是工作区已保存的航拍审计记录；原始 E 盘路径当前不可用，未重新读原始 JPEG，也未上传任何原始照片。"
+  ]
+}

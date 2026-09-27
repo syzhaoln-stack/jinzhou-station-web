@@ -1,0 +1,789 @@
+{
+  "entry": "review/operations.html",
+  "source_commit": "ddb7deaaca7beb903fc9b7f4a38f9119c2730629",
+  "source_has_changes": false,
+  "file_count": 156,
+  "bytes": 752731559,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "index.html",
+      "bytes": 336,
+      "sha256": "1b7725bc8ef890424d9b142cea0f1ce38c23258af4b145d9994d3fb297ff36c0"
+    },
+    {
+      "path": "review/actor-factory.js",
+      "bytes": 19205,
+      "sha256": "b6cac0b7ce2a0da795161c1a9de2981cbea1cb6e31e8c2d8c2fbff18262d124d"
+    },
+    {
+      "path": "review/actors/container_20ft.glb",
+      "bytes": 1406328,
+      "sha256": "f31412f151db3307a0c24fc56fd493349c3eecaa1a7891301b690b2c5e89d122"
+    },
+    {
+      "path": "review/actors/container_flatbed_truck.glb",
+      "bytes": 4695904,
+      "sha256": "0fa0c3e748eb182937ca5db29534e2513f800693a22371b30669e1f775d2414f"
+    },
+    {
+      "path": "review/actors/dump_truck.glb",
+      "bytes": 4513424,
+      "sha256": "85241e3f6cea545ed63045f2472f56d8662ef0a583a94769af5c405e5402c4e2"
+    },
+    {
+      "path": "review/actors/freight_flatcar.glb",
+      "bytes": 1777792,
+      "sha256": "81c330158add7a819d26416ec0af41af34b74652fa6129db300996aff97a008b"
+    },
+    {
+      "path": "review/actors/rail/locomotive00.glb",
+      "bytes": 1805248,
+      "sha256": "c2d8cf54f3180dc6e430e605dae2b83c12cc55fd085c82d70c54dadc24e97f53"
+    },
+    {
+      "path": "review/actors/worker_ppe_walk.glb",
+      "bytes": 32676792,
+      "sha256": "18faf7d9a69eae24c7650ca1ee36be0719908b5e3d1fd6cf32ea240fec8f290b"
+    },
+    {
+      "path": "review/ambulance-actor.js",
+      "bytes": 8559,
+      "sha256": "c74b7d45174ae759ffa57724491298afca1650afb4c96b098a0d1e07ac5f32fd"
+    },
+    {
+      "path": "review/briefing.css",
+      "bytes": 18507,
+      "sha256": "e092d89e4ee8f6df24731c3e90bafad63ec34cead0c2f2002e1d723deb9866bd"
+    },
+    {
+      "path": "review/briefing.html",
+      "bytes": 6078,
+      "sha256": "1b67983af33f107f110185d4afda7d93369679f74c2d49380f161d0651943390"
+    },
+    {
+      "path": "review/briefing.js",
+      "bytes": 9849,
+      "sha256": "5d5c40465b4308ea0f5f1dfe57c06ff67f26ebd97cc0fd699ed76afbf0b39939"
+    },
+    {
+      "path": "review/building-egress.js",
+      "bytes": 16930,
+      "sha256": "0f56533aa3519f356402ab58b4507584378072bdc48952e2451669b69f491680"
+    },
+    {
+      "path": "review/business-api.openapi.json",
+      "bytes": 28129,
+      "sha256": "ae724a9b4299907a36327a866bbe1c9c114f1c15ab060909f5708ec8b9dc9406"
+    },
+    {
+      "path": "review/business-core.js",
+      "bytes": 26945,
+      "sha256": "3d7105ca2c85cf0774f6d808a41a3aa6459e6d6b716ae31fd23d2aa503115d82"
+    },
+    {
+      "path": "review/business-integration-guide.md",
+      "bytes": 17068,
+      "sha256": "75c1cc215c03b0f11dc5c6c65916a82fffe5a91b35bf030a3fc3ac75a500c75e"
+    },
+    {
+      "path": "review/business-seed.json",
+      "bytes": 87011,
+      "sha256": "9dc6259eb5684aa15537bd1477148b53ee50904acf5564e3b65cfc040b7d12c1"
+    },
+    {
+      "path": "review/business-sources.json",
+      "bytes": 10336,
+      "sha256": "e7a8f8c981ba6ee5da464d6f9d43cb9032e78cd721b824f416828c8b5823086a"
+    },
+    {
+      "path": "review/business-ui.css",
+      "bytes": 9616,
+      "sha256": "c2ea24b34af41045ca0823031f9d7e0506b087d55a287196aab6ce66b2e77137"
+    },
+    {
+      "path": "review/business-ui.js",
+      "bytes": 42695,
+      "sha256": "af26ccac89074ee0b335d80067395f1c0cb6ca0e439b6f9b7cf01452a5e78e43"
+    },
+    {
+      "path": "review/capability-film.json",
+      "bytes": 26186,
+      "sha256": "578f0dd8f0baebcd02b373fd2017da586bd226cf0ab5488577e5ae3f2152819f"
+    },
+    {
+      "path": "review/catalog-ui.js",
+      "bytes": 7431,
+      "sha256": "16c2b6806ee615a415818cd1c9783d9536f9a8baf79cc09c7fdb1edd1ac4af1c"
+    },
+    {
+      "path": "review/cooperation-core.js",
+      "bytes": 4389,
+      "sha256": "2dcc6a8e6620c7c3557ce0381ee8665740f16384c0826031f399cf9f1dd2ffbe"
+    },
+    {
+      "path": "review/cooperation-scenarios.json",
+      "bytes": 33387,
+      "sha256": "fb8de31dddb879e70875c297b14b81ae7d01a0f83597217ccd70b712aad53e0f"
+    },
+    {
+      "path": "review/cooperation-ui.css",
+      "bytes": 5309,
+      "sha256": "3e8d1e203c3486cfc63b08c048442d179122393c46420203aae54aabcc72f2e6"
+    },
+    {
+      "path": "review/cooperation-ui.js",
+      "bytes": 9653,
+      "sha256": "6904493ed40485901dd05bc6bcdeca5b883c76d2dfed3ca83bfdbc3f97fb7000"
+    },
+    {
+      "path": "review/coordination-ui.js",
+      "bytes": 7832,
+      "sha256": "3f14655d25bd5b3a1b4f8805d0678f3169de573f50bb2594f66586cd9aecc431"
+    },
+    {
+      "path": "review/drill-route-utils.js",
+      "bytes": 4065,
+      "sha256": "0fb2261c4daa6d6a509c7e785b4808df9cd8c327202d12f773845c763f7ffd2e"
+    },
+    {
+      "path": "review/drill-scenarios.json",
+      "bytes": 14565,
+      "sha256": "de2cf6862d24467bfc8a2fa2a4726dd91f3cf0b736289d01b42172bd0a057ec5"
+    },
+    {
+      "path": "review/drill-simulation.js",
+      "bytes": 30668,
+      "sha256": "912d3145d235ca5b91e91c85d206dd2b96a6fbf3e614361f2a73e1abd46b0f44"
+    },
+    {
+      "path": "review/exercise-personnel.json",
+      "bytes": 4380,
+      "sha256": "508e484cc628decfbf453c26f825f70c99f99807bc8bb578a453fa976a204a67"
+    },
+    {
+      "path": "review/film-review.html",
+      "bytes": 23285,
+      "sha256": "f0e50482536bfbf7a8d8b77791c2707d510332d2bce7dfa69f016cb3a07c82ab"
+    },
+    {
+      "path": "review/fire-effects.js",
+      "bytes": 12192,
+      "sha256": "09b2983e88894dd88a890d6f9c28839e5b263a5bd0bbca1a0f9a908c9b79ecb4"
+    },
+    {
+      "path": "review/gate-controller.js",
+      "bytes": 982,
+      "sha256": "b6abbae3a3d644a469d970e78b4faf8c3ceb8663a16e1c5679bb69306e2237d6"
+    },
+    {
+      "path": "review/index.html",
+      "bytes": 410,
+      "sha256": "6f88b0b2d7103a7fd6b0d125ff59ca293cffed1b24259baf023de51ee7c8cfcf"
+    },
+    {
+      "path": "review/inventory-estimates.json",
+      "bytes": 5400,
+      "sha256": "ab44ff4d4837f0269cd1f4975b0a40e548cfec4911091342e543ee17250776b6"
+    },
+    {
+      "path": "review/ledger-core.js",
+      "bytes": 4736,
+      "sha256": "ba70bd10c167e308425cf059bdead8b7b3a5b8f923ee226837df0996ca71ee45"
+    },
+    {
+      "path": "review/ledger-management-ui.css",
+      "bytes": 6599,
+      "sha256": "ed2000c7d09444fba65b91887ab183bff8235f8c0f73e14ef1faaace5271502f"
+    },
+    {
+      "path": "review/ledger-management-ui.js",
+      "bytes": 26569,
+      "sha256": "61d610b645c6a558aa7e85b316cee8838176fdf8d1097e9f76687ab10afe48d7"
+    },
+    {
+      "path": "review/ledger-management.js",
+      "bytes": 20662,
+      "sha256": "6e7676704e4f5f40c9ad6ae29a25f848c8bed6a9a97526ebac044f7d7a4b2070"
+    },
+    {
+      "path": "review/ledger-ui.css",
+      "bytes": 17356,
+      "sha256": "1af73206b51d74d8b5b6a0bb90aa809a2422509b6262826c775ee64a46391d10"
+    },
+    {
+      "path": "review/ledger-ui.js",
+      "bytes": 27271,
+      "sha256": "71d4f948d50dbeeddc2e9254a08d563ee83fa2b84b2339f52022d7ede2106799"
+    },
+    {
+      "path": "review/loading-progress.js",
+      "bytes": 3131,
+      "sha256": "b4f5bc448d77c1c5763fdcaa15d4fa4efb77b7b332e8b2ee7157653440e8c1d2"
+    },
+    {
+      "path": "review/logistics-ui.js",
+      "bytes": 4304,
+      "sha256": "8a25dc2658aba715dc00fca05b7c3940d680dc42ddae32211ac861707ba0aa66"
+    },
+    {
+      "path": "review/macro-video-director.js",
+      "bytes": 7252,
+      "sha256": "144fe74e1c3800b00078b8eb9c2795d5eb505233c9ea7ef710842dbf420c2f3b"
+    },
+    {
+      "path": "review/media/short-demo.mp4",
+      "bytes": 72643664,
+      "sha256": "850df8df3928c031741c47d2a13127d6d9bdfd86adaccd432fe3394391bd8c29"
+    },
+    {
+      "path": "review/motion-preview.js",
+      "bytes": 15297,
+      "sha256": "77c70154431ba7f1c91d266007276ef6fbd313b9be23408fceca76a42d6e8142"
+    },
+    {
+      "path": "review/narration/drill_alarm_voice.mp3",
+      "bytes": 219404,
+      "sha256": "100497c31747e17a704e9b7af606cb476d478d494cf052bb39c5141c114224ea"
+    },
+    {
+      "path": "review/narration/drill_assembly_voice.mp3",
+      "bytes": 224204,
+      "sha256": "6f306c4f3f1e30d6adbf487a36ba5cbfa1e50d9bf1d651cb65c6577e908d7576"
+    },
+    {
+      "path": "review/narration/drill_ignition_voice.mp3",
+      "bytes": 195884,
+      "sha256": "e2498b9904defa24f3d61b44f28fd091a149d473c45f2f94e058db693dba6f62"
+    },
+    {
+      "path": "review/narration/drill_overview_voice.mp3",
+      "bytes": 233324,
+      "sha256": "2067a73cc4242f6f42387b5dfd47007265e9edfc81e13a1ec747c1c7d0d6ef1a"
+    },
+    {
+      "path": "review/narration/drill_people_voice.mp3",
+      "bytes": 230924,
+      "sha256": "bb17f1014d0a2991304bbf2021902365dfc296184dd1bbdf7ef9a1c2bf3c79b9"
+    },
+    {
+      "path": "review/narration/drill_rescue_assist_voice.mp3",
+      "bytes": 165164,
+      "sha256": "cfcc23f380f339ce954490c217aa3f583786a19c3f5d94f2f7b31cd788120e04"
+    },
+    {
+      "path": "review/narration/drill_rescue_voice.mp3",
+      "bytes": 201164,
+      "sha256": "c28afbf92073402de955998e49883ac9de6b0d89c3bfbacd2cdcd25f6fae66db"
+    },
+    {
+      "path": "review/narration/drill_suppression_voice.mp3",
+      "bytes": 236684,
+      "sha256": "39696bdfb31f345913ea38c9a9df7a1951843c36a227e6211e19d756ea0bbc4d"
+    },
+    {
+      "path": "review/narration/drill_vehicles_voice.mp3",
+      "bytes": 226604,
+      "sha256": "9444c15b0b6a5821cd7dce1d3275029e96df2995c9941313bf2d3f4923d2e833"
+    },
+    {
+      "path": "review/narration/intro_buildings_voice.mp3",
+      "bytes": 315404,
+      "sha256": "9561490bab40919bd71aca8171630d74e5b1e8484e1b40a65c343d2b89dc7b67"
+    },
+    {
+      "path": "review/narration/intro_drill_setup_voice.mp3",
+      "bytes": 332204,
+      "sha256": "aadc5389d2b4b037098329f9b30e8eb45095f8ace1724acbac28531a9f95a975"
+    },
+    {
+      "path": "review/narration/intro_overview_voice.mp3",
+      "bytes": 287564,
+      "sha256": "fdee49e5f4f0602d477f5712334a322d6b58bf6d8480ac7de7917d1dfc3d8c9e"
+    },
+    {
+      "path": "review/narration/intro_rail_materials_voice.mp3",
+      "bytes": 292844,
+      "sha256": "8f5c5221ebc67baa8b539aace97d2ee8e1c36fdd6da71664e0ad12fbbfb29937"
+    },
+    {
+      "path": "review/narration-manifest.json",
+      "bytes": 41665,
+      "sha256": "6b76565ea3c2b2f33d2b15670c0b5e6009aa4cc819a1a90bd58a639b8e8227aa"
+    },
+    {
+      "path": "review/narration-player.js",
+      "bytes": 4193,
+      "sha256": "a36b2690fa186a7d6c8d16d0fe31eb3d848857af0df56d818238c0446f86a6a8"
+    },
+    {
+      "path": "review/narration_macro/macro_conflict_compare_voice.mp3",
+      "bytes": 434444,
+      "sha256": "84222a218339ede00893a16cc99f39013162605eb80d90e9f3fb527aec81ddca"
+    },
+    {
+      "path": "review/narration_macro/macro_fire_alarm_voice.mp3",
+      "bytes": 454124,
+      "sha256": "ef22e3795ddbeac77d95925ba97ac733d2b334f62472318f82db196d67508dd8"
+    },
+    {
+      "path": "review/narration_macro/macro_fire_people_cars_voice.mp3",
+      "bytes": 469964,
+      "sha256": "f38694e4f9010c8d7cd46aa7facef02273fb28de7e59731712da73889da1903b"
+    },
+    {
+      "path": "review/narration_macro/macro_fire_rescue_voice.mp3",
+      "bytes": 459404,
+      "sha256": "0eb4acc8059c7ba834881ee6ee1288e262f1072289b1d08d09e2ed1568d1f4d0"
+    },
+    {
+      "path": "review/narration_macro/macro_haul_first_voice.mp3",
+      "bytes": 413324,
+      "sha256": "691371f13c092116b4415703d53c0bba4a61e575788807a50791e741158bd3c5"
+    },
+    {
+      "path": "review/narration_macro/macro_haul_rear_voice.mp3",
+      "bytes": 424844,
+      "sha256": "3d7d1d74d1245253a65b6b76a290fa60702971a0cb3ccff82d2aa642bc0eccb0"
+    },
+    {
+      "path": "review/narration_macro/macro_macro_outlook_voice.mp3",
+      "bytes": 456524,
+      "sha256": "57cea0222c3689948adc1cd2a6e7ebb128dea58767283bd011646c6c086edd74"
+    },
+    {
+      "path": "review/narration_macro/macro_macro_overview_voice.mp3",
+      "bytes": 427724,
+      "sha256": "043af4fa82391d184f975dcbd87a54ca1ac0157f28f9c46c38683b7c35ac7cde"
+    },
+    {
+      "path": "review/narration_macro/macro_macro_repair_voice.mp3",
+      "bytes": 421964,
+      "sha256": "0ef6b228f30c4f059c971aa73df62b982d1cf0331786c6107f699c76c3e149f2"
+    },
+    {
+      "path": "review/narration_macro/macro_macro_scope_voice.mp3",
+      "bytes": 430604,
+      "sha256": "6e5e25551643da2a0a9e8b148134d4128db1c0f8e442ac11f6d58e5dbef97c72"
+    },
+    {
+      "path": "review/narration_macro/macro_managed_front_voice.mp3",
+      "bytes": 468524,
+      "sha256": "98da81f303bab0de03c3424ed302d82a990c38c8c8163b3edea61665691e00ed"
+    },
+    {
+      "path": "review/narration_macro/macro_managed_middle_voice.mp3",
+      "bytes": 447884,
+      "sha256": "70f42fb1c0b7482c9bbbae44d4a0a95ca90d2dfc2c068af21d8a017baf0d118d"
+    },
+    {
+      "path": "review/narration_macro/macro_managed_rear_voice.mp3",
+      "bytes": 454124,
+      "sha256": "a9113d5a3d17da7ef34d73a285d0ad6e99f278ba1a3b9ecfb07524eec899e275"
+    },
+    {
+      "path": "review/narration_macro/macro_rail_arrival_voice.mp3",
+      "bytes": 448844,
+      "sha256": "7fbb51c2bed5e019c3c659f49e671de1fc5db85864137fdaba4c79c07e18c931"
+    },
+    {
+      "path": "review/narration_macro/macro_rail_confirm_voice.mp3",
+      "bytes": 382604,
+      "sha256": "ede86f52cfdbfbac8c26778537b92de70fd093db2d4a224caeb8a771babfa0bd"
+    },
+    {
+      "path": "review/narration_macro/macro_rail_transfer_voice.mp3",
+      "bytes": 442124,
+      "sha256": "3abab990d5e20ea000f3dde8fc068fbbfe72886951bb108ae0887a40b3a83974"
+    },
+    {
+      "path": "review/narration_short/short_evacuation_voice.mp3",
+      "bytes": 210764,
+      "sha256": "093284e090163dd93b124fff16fcc99b6bf71cd9e93174a663864e1a8ca13e26"
+    },
+    {
+      "path": "review/narration_short/short_interaction_voice.mp3",
+      "bytes": 125324,
+      "sha256": "dc7b3e5f9ddbd608dc3ee34a11beff1bd21be60622bf6dc76fd2a4ce58b723e7"
+    },
+    {
+      "path": "review/narration_short/short_intrusion_voice.mp3",
+      "bytes": 225164,
+      "sha256": "38d2f87f883f305c52a9398585faa8c9f6460f58645e6cae878561574bbabaff"
+    },
+    {
+      "path": "review/narration_short/short_outlook_voice.mp3",
+      "bytes": 103724,
+      "sha256": "7c2f7049f2f5fee0d838af90869d5f52584dae3c97bc1d8317577905bd52886a"
+    },
+    {
+      "path": "review/narration_short/short_overview_assets_voice.mp3",
+      "bytes": 235244,
+      "sha256": "f13f9df892915386ce92e4ca86b8bd3eacfccecbe6af93e5f6f4c927a38b6b1b"
+    },
+    {
+      "path": "review/narration_short/short_rail_transfer_voice.mp3",
+      "bytes": 241004,
+      "sha256": "3b6b2d3aae6436682132c0cb0d82f2085e2e8e1b56028d3bb1a24a0bc63e3a08"
+    },
+    {
+      "path": "review/narration_short/short_repair_compare_voice.mp3",
+      "bytes": 191084,
+      "sha256": "381d9b62f1663bdf6f4935dbb62d2304d80b98aedd1fac87d40267dabccf3cb9"
+    },
+    {
+      "path": "review/narration_short/short_security_voice.mp3",
+      "bytes": 205964,
+      "sha256": "5f1d8ad35ac069022f2ef091bd93e6a9385e134f63ca699c71415c5455c6774c"
+    },
+    {
+      "path": "review/narration_short/short_shorthaul_voice.mp3",
+      "bytes": 177644,
+      "sha256": "5f996e518eb9bcd12d1c946e62004dae2dd0ada67d7dc170260b11d3b156d45a"
+    },
+    {
+      "path": "review/operations-config.json",
+      "bytes": 3615,
+      "sha256": "0b8a4e51172bdef72148a3bb0055ff993e639afd47adb09b3d4a94eafad508a9"
+    },
+    {
+      "path": "review/operations.css",
+      "bytes": 13077,
+      "sha256": "5d5f32afba0457f89a6799a9bc8fc8eedd8ac2fd97997b9380d7afbea7b67791"
+    },
+    {
+      "path": "review/operations.html",
+      "bytes": 14257,
+      "sha256": "c0706f716323f6cc245cacdf6ab34535d4d4e26a00a17dc20b2d82a190282065"
+    },
+    {
+      "path": "review/operations.js",
+      "bytes": 33449,
+      "sha256": "883d6c20275f72eedf60d2fde2170b26bc87fe72e15459f902212c8cacd42992"
+    },
+    {
+      "path": "review/original-inspector.html",
+      "bytes": 5096,
+      "sha256": "91fbf7e806e5b6911bdb0c948719bb92c374d244018d1df1faba51c70a03b5fe"
+    },
+    {
+      "path": "review/original_station_core_l22.glb",
+      "bytes": 98722888,
+      "sha256": "f5c9556fcd8e21e6224edf735e3bf42732748342ad6ebc71ada34e322fb936f3"
+    },
+    {
+      "path": "review/original_station_lod19_complete.glb",
+      "bytes": 171958488,
+      "sha256": "4756764472f8386695f04d42e3b324cfc34720cc3131d6aecc9244a79e00c799"
+    },
+    {
+      "path": "review/presentation-ui.js",
+      "bytes": 2361,
+      "sha256": "782240087d05bf2c840bca517956783ae181bc2c544a5383b298769bd2a56d02"
+    },
+    {
+      "path": "review/protection-ui.js",
+      "bytes": 5262,
+      "sha256": "1811d470fa8ef2ee1cc9ed27847437d0aa5305b538ca76846c36bf6dce715982"
+    },
+    {
+      "path": "review/rail-logistics-route.json",
+      "bytes": 389750,
+      "sha256": "71a613f214364754d2a98c40388ee1c6f75759cd93b4d4ef0c7f66d87a602438"
+    },
+    {
+      "path": "review/rail-logistics.js",
+      "bytes": 21620,
+      "sha256": "b024e548211cc0a724a8c5af26df2a3f5af626422614fccb2ad2a2d67fd9d0ee"
+    },
+    {
+      "path": "review/rail-logistics.json",
+      "bytes": 1441,
+      "sha256": "a5e11a98b2d9cc3b9d225a9dbabcd68104958063cf3b5a545a8742d25d2293cf"
+    },
+    {
+      "path": "review/rail-motion.js",
+      "bytes": 1026,
+      "sha256": "fb8535c1bd5a83c0367dd6d4cc254ced78b91fe823b64f4b6a162ca03d3677ad"
+    },
+    {
+      "path": "review/readable-label.js",
+      "bytes": 7344,
+      "sha256": "255516c906afd92d8a6016616d9e0f9817d3b0f9934767e1b31af2082f4b5830"
+    },
+    {
+      "path": "review/refined-ui.css",
+      "bytes": 8768,
+      "sha256": "06c790292407471f50a41f9c1961986fdb47d6a4d4b9db997b73c9535e69de2b"
+    },
+    {
+      "path": "review/repairs/b1_01.glb",
+      "bytes": 12609564,
+      "sha256": "e08850c21f9b0062191662bcda45870d2765cbaf468431f096d7bf1748d4d4d2"
+    },
+    {
+      "path": "review/repairs/b1_after.png",
+      "bytes": 2521620,
+      "sha256": "631a9c307494a4e5da3261e060e861beccd09465177207eb672ee8cfe8603d14"
+    },
+    {
+      "path": "review/repairs/b1_before.png",
+      "bytes": 2530501,
+      "sha256": "548d39e688d5ce0a21236bab46c0b1879fdc73fff5634c973f003dbe8477517c"
+    },
+    {
+      "path": "review/repairs/b1_source_tiles.glb",
+      "bytes": 692328,
+      "sha256": "b70f8988dfed548a3e26a2722334a60cef4da53722ca78eed429911b0a947bfe"
+    },
+    {
+      "path": "review/repairs/b1_source_tiles_core.glb",
+      "bytes": 2258556,
+      "sha256": "98cf5731c18d8f45a8bf403d9f3ad365ecad192031bd7c8ff194562bb140005b"
+    },
+    {
+      "path": "review/repairs/batch_gantries.glb",
+      "bytes": 2573160,
+      "sha256": "fb8907d81573d16c0812e6df06009092270c2bbc131d5c5fdc6eb17b717ecc99"
+    },
+    {
+      "path": "review/repairs/batch_gantry_middle_after.png",
+      "bytes": 2298688,
+      "sha256": "80e7265b3dbf8f2db5636d765abf9a229ca5c45b09ba2a98cc366c702c18e533"
+    },
+    {
+      "path": "review/repairs/batch_gantry_rear_orange_after.png",
+      "bytes": 2243867,
+      "sha256": "db36e06806a32487aac2e343b7ef740470ade8e93a9715da4adf26abfa6281f8"
+    },
+    {
+      "path": "review/repairs/batch_gantry_rear_red_after.png",
+      "bytes": 2177799,
+      "sha256": "ea7ab67f80fe6d0fd84bc70a84137964b8aea247f926ea195b6f0badd631626f"
+    },
+    {
+      "path": "review/repairs/cleanup_after.png",
+      "bytes": 1980068,
+      "sha256": "41bee6e2798a8afce5ff349b0bf667b5257f4032ba7914d685678a6a87ea4dfe"
+    },
+    {
+      "path": "review/repairs/cleanup_before.png",
+      "bytes": 2029603,
+      "sha256": "6ec3b8066a16d8d870579549eb724a150b55109b1a6cb79744395b0c63f0fdd5"
+    },
+    {
+      "path": "review/repairs/gate.glb",
+      "bytes": 32672,
+      "sha256": "68613e2070041ffb5a4775f48934b302313540b367416be6b1538708a9f99292"
+    },
+    {
+      "path": "review/repairs/gate_closed.png",
+      "bytes": 1934246,
+      "sha256": "390f8e992f6b7a73358c571c499a6c2b547efddf916d481c3dd288d2d23018e8"
+    },
+    {
+      "path": "review/repairs/gate_open.png",
+      "bytes": 1935275,
+      "sha256": "b3116749dcbb2298172ad4cfd66cee325f00a45ef5a2ef51e1b866fff87bcda6"
+    },
+    {
+      "path": "review/repairs/gate_sourceclipped_core.glb",
+      "bytes": 98337976,
+      "sha256": "8952d3d37a74ce40eb0bc44e37b23c6c50ec9f30c03b523394c558205a91b8f4"
+    },
+    {
+      "path": "review/repairs/gate_sourceclipped_overview.glb",
+      "bytes": 171972124,
+      "sha256": "eea0f00dac0679136b4b6e9e30346d3f8fd5931534770a809298a060bd99b488"
+    },
+    {
+      "path": "review/repairs/repair.glb",
+      "bytes": 1027380,
+      "sha256": "41a328f7abe8b6645c297c8954860ab1d616871a85ff40132333efa978e38347"
+    },
+    {
+      "path": "review/repairs/truck_ground_patch.glb",
+      "bytes": 8764,
+      "sha256": "8618d71f26db642e041e45b09727460b7bf99d87a7cb3f76626304c530ededfa"
+    },
+    {
+      "path": "review/repairs/vehicle_cleanup_ground.glb",
+      "bytes": 371924,
+      "sha256": "9bcae68729dbfae0a4c8ddcecf410e67c91865c966af7b1444237d0d461ccf31"
+    },
+    {
+      "path": "review/repairs/vehicle_cleanup_tiles.glb",
+      "bytes": 258884,
+      "sha256": "0a718e043c1549b92ed45009d52c5ea088ac3daa365c74f1c65208681b0bcdcc"
+    },
+    {
+      "path": "review/scene-engine.js",
+      "bytes": 9046,
+      "sha256": "4a08bb946bb0672c8723a4ffde5151c3532fa4dbb2e50ab19cd261fabafff214"
+    },
+    {
+      "path": "review/security-simulation.js",
+      "bytes": 20974,
+      "sha256": "2427c4be9f77556221e8eb0ab20661fdc292723e8612538edd2a2afafbf80255"
+    },
+    {
+      "path": "review/short-film-director.js",
+      "bytes": 8840,
+      "sha256": "f19c5118cbd1c62aebca23e2ee5e7d0f47d42d4a15e158cade5477a24d2f54a5"
+    },
+    {
+      "path": "review/short-film.json",
+      "bytes": 12747,
+      "sha256": "7001ca699cbb4ec3181f7b7f5d8b439a809aa9e7fbc476bc4fa89de013b72b79"
+    },
+    {
+      "path": "review/site-location.json",
+      "bytes": 7534,
+      "sha256": "de9abe15958fc2bf60ea0d8d8dfa94a33f6856283593bdf708d6df30be1af9dc"
+    },
+    {
+      "path": "review/sitewide-routes-separated.json",
+      "bytes": 452231,
+      "sha256": "a1cad18492269915972d8eacbf0a1c02c197573a8e29e5f3decf01fe68203505"
+    },
+    {
+      "path": "review/sitewide-routes.json",
+      "bytes": 181559,
+      "sha256": "0d501d151b06a22e0f99c015cfe802a1685706ec0b50a1c13d78cd8c07c47a46"
+    },
+    {
+      "path": "review/sitewide-simulation.js",
+      "bytes": 40659,
+      "sha256": "06d6e0a065ef656cbbb2ed2877a1d750ca257077492ba7e83b2aaf3c6bacf740"
+    },
+    {
+      "path": "review/sitewide-simulation.json",
+      "bytes": 13180,
+      "sha256": "3e8bcc5737e9756f78cabcf254f8d7bf659890fff5bfc9cd2f5e4b9f17e7a8c1"
+    },
+    {
+      "path": "review/source-viewer.js",
+      "bytes": 10098,
+      "sha256": "5b422bac7ea34bb3db6f91f51c8e5aa0709c52f29db70d8260cf338737302579"
+    },
+    {
+      "path": "review/source_model.json",
+      "bytes": 1796,
+      "sha256": "ab617113aa95b2e30bb7a1c08ce9d515626361b802cfb3c096068a3965cba97f"
+    },
+    {
+      "path": "review/static-host.js",
+      "bytes": 1639,
+      "sha256": "7908fa8a1347d12953386606e44184aabb1467a815c022d39ad08fe1450ac34c"
+    },
+    {
+      "path": "review/station-catalog.json",
+      "bytes": 85505,
+      "sha256": "c575cccb313d19ea46de0490938c7a8a9452e3d8a1e31e93e600ee3d30e76a60"
+    },
+    {
+      "path": "review/station-intro.json",
+      "bytes": 3151,
+      "sha256": "08b47c232bd0373927ca01ccea775b903a7a03c0bb278c7e583319c4cf4ff74d"
+    },
+    {
+      "path": "review/station-ledger.json",
+      "bytes": 38342,
+      "sha256": "8d59fe72025a7a9c743ba587dc82a0eff054ed36aefe35d38700701be381a572"
+    },
+    {
+      "path": "review/truck_preview.png",
+      "bytes": 657625,
+      "sha256": "e586491807d106ccde50f494660e169f0108188a71bb4866880f97a6af939be4"
+    },
+    {
+      "path": "review/vendor/build/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    {
+      "path": "review/vendor/build/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "review/vendor/examples/jsm/controls/OrbitControls.js",
+      "bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "path": "review/vendor/examples/jsm/loaders/GLTFLoader.js",
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    {
+      "path": "review/vendor/examples/jsm/utils/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    {
+      "path": "review/vendor/examples/jsm/utils/SkeletonUtils.js",
+      "bytes": 11062,
+      "sha256": "0761b1e003917b215d25dd81439d854b36034b5a57ce84c2cfe3b02428d7b253"
+    },
+    {
+      "path": "review/vendor/LICENSE",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "review/video-export.js",
+      "bytes": 13574,
+      "sha256": "7fe17eb376c8ca849fb79516e0fc5acb25624a9b757fa015e66c3c6895ef9c8c"
+    },
+    {
+      "path": "review/watch.html",
+      "bytes": 20449,
+      "sha256": "bb88def5be2c37d7f9064172b8c1bbaf34e1fdb104c422cb57b929ce8a36b9d3"
+    },
+    {
+      "path": "review/worker_preview.png",
+      "bytes": 851932,
+      "sha256": "b58901565d6b5bb743543689e49b5ace2b0fc57011ee5d7dbe5b022722a7cddc"
+    },
+    {
+      "path": "scope/images/scope_01_original.jpg",
+      "bytes": 11366400,
+      "sha256": "b6034c8b78d58b54b4ec0391a1bb93e0bec050c9cb38cfaeca7662a509fd91c5"
+    },
+    {
+      "path": "scope/images/scope_01_preview.jpg",
+      "bytes": 1581752,
+      "sha256": "633ffa4e79d2a7ee8afbc49f93c30687636fc5c65ec5edb00fad4d7eb5f2af04"
+    },
+    {
+      "path": "scope/images/scope_02_original.jpg",
+      "bytes": 9478144,
+      "sha256": "2f70a8a095c5b2c521854df5129348e8beed53304c98766062ebe6257d364983"
+    },
+    {
+      "path": "scope/images/scope_02_preview.jpg",
+      "bytes": 1262610,
+      "sha256": "f6d7dc89bab8e3f07d9a209862d7265b68f4237bfeca9d7f5cfb6448e44b10be"
+    },
+    {
+      "path": "scope/images/scope_03_original.jpg",
+      "bytes": 9916416,
+      "sha256": "1aae31e424c770f158de518f843c13edbf43d73568971f0c0bfa0cb650d2cbd0"
+    },
+    {
+      "path": "scope/images/scope_03_preview.jpg",
+      "bytes": 1379002,
+      "sha256": "5bd28bf6d72190ff890afa0b92831a7f0366eb8e130fb672fbd4586a4b481ff9"
+    },
+    {
+      "path": "scope/范围确认.html",
+      "bytes": 21324,
+      "sha256": "9e9a8850d4306d146604d5b0f2b0109b9fda7e160406155af33fd23770d54963"
+    }
+  ]
+}

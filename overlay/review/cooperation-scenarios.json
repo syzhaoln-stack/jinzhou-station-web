@@ -1,0 +1,334 @@
+{
+  "schemaVersion": "1.0",
+  "title": "金桥铁路物流中心 · 合作交流与实务推演",
+  "asOf": "2026-09-27",
+  "sourceMode": "research_based_demo",
+  "notice": "公开报道提供业务依据，场景、工单、岗位回执和三维锚点为交流演示。场站边界、修箱点位置、设备能力、正式流程及运营数据须由业务方确认。页面不发出铁路调度、门禁或机械控制指令。",
+  "sources": [
+    {
+      "id": "jinqiao-repair-20260825",
+      "title": "“接力”修箱提效率（铁路物流故事）",
+      "url": "https://peoplerail.com/newszb/html/2026-08/25/content_2_67531.htm",
+      "publisher": "人民铁道报",
+      "date": "2026-08-25",
+      "claim": "报道大连铁路物流中心大连港营业部金桥班组与金桥箱修点协作：共享破损箱信息，衔接维修计划，修竣后核验并安排返空；提出数字化箱修台账共享平台。",
+      "scope": "金桥相关公开业务案例；不能证明修箱点位于当前三维模型的哪个区域，也不是本站实时数据。"
+    },
+    {
+      "id": "xian-smart-yard-20260807",
+      "title": "丝路起点 “智”连山海（高质量发展铁路万里行）",
+      "url": "https://peoplerail.com/newszb/html/2026-08/07/content_1_67097.htm",
+      "publisher": "人民铁道报",
+      "date": "2026-08-07",
+      "claim": "西安国际港站案例将进场预约、车牌核验、货位导航、箱位采集和作业工单衔接，并设置平过道口防护。",
+      "scope": "外站可借鉴做法；设备数量、提效比例和节约金额均不迁用到金桥。"
+    },
+    {
+      "id": "freight-rules-2026",
+      "title": "铁路货物运输规则（交通运输部令2026年第2号）",
+      "url": "https://xxgk.mot.gov.cn/gz/202602/W020260226551364108827.pdf",
+      "publisher": "中华人民共和国交通运输部",
+      "date": "2026-02-03",
+      "claim": "2026年5月1日起施行；提供货运站信息公开、运单字段、箱况检查、交接和交付责任等依据。",
+      "scope": "用于字段与责任边界；作业具体组织仍须遵守现场规章和运输协议。"
+    },
+    {
+      "id": "freight-checks-2017",
+      "title": "国家铁路局关于加强铁路货物运输安全有关工作的通知",
+      "url": "https://source.nra.gov.cn/jglz/fgzd/gfwj/201710/t20171009_336796.shtml",
+      "publisher": "国家铁路局",
+      "date": "2017-10-09",
+      "claim": "要求货物安全检查、交接检查及检查结果留存，并将承运安全责任落实到岗位。",
+      "scope": "作为检查与证据留存依据；本文不拟定本站检查权限或保存期限。"
+    },
+    {
+      "id": "equipment-responsibility-2023",
+      "title": "特种设备使用单位落实使用安全主体责任监督管理规定（总局令第74号）",
+      "url": "https://www.samr.gov.cn/cms_files/filemanager/1647978232/attach/20234/W020230412490760775919.pdf",
+      "publisher": "国家市场监督管理总局",
+      "date": "2023-04-04",
+      "claim": "起重机械使用管理要求包括安全岗位、逐台责任、检查记录和严重事故隐患处置。",
+      "scope": "适用机型及岗位配置须现场核验；页面演示角色不等于实际任职或资格。"
+    },
+    {
+      "id": "crane-tsg51-2023",
+      "title": "起重机械安全技术规程 TSG 51—2023",
+      "url": "https://www.samr.gov.cn/cms_files/filemanager/1647978232/attach/20239/1cbb91448dc144e9aa36e3a4fe30869d.pdf",
+      "publisher": "国家市场监督管理总局",
+      "date": "2023-05-23",
+      "claim": "为设备档案、安全保护、使用管理和检验信息提供技术依据。",
+      "scope": "须结合第1号修改单、设备说明书及具体适用范围审查；不从通用条文臆造本站风速停机值。"
+    },
+    {
+      "id": "crane-tsg51-amendment1",
+      "title": "市场监管总局关于发布《锅炉安全技术规程（第1号修改单）》等3个特种设备安全技术规范修改单的公告（2024年第42号）",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/tzsbs/art/2024/art_074636c9033f4bffad802134178628a0.html",
+      "publisher": "国家市场监督管理总局",
+      "date": "2024-09-26",
+      "dateType": "公告成文日期",
+      "publishedDate": "2024-09-29",
+      "effectiveDate": "2024-11-01",
+      "claim": "公告发布TSG 51—2023第1号修改单，自2024年11月1日起施行；规范版本核查应包含该修改单。",
+      "scope": "仅说明版本管理需要，不表示已完成本站设备合规评审。"
+    },
+    {
+      "id": "weather-equipment-20260528",
+      "title": "市市场监管局暑期汛期特种设备安全提示",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260528/ba80f4cd8ac4406788f88d16a320e01a.html",
+      "publisher": "上海市市场监督管理局（上海市政府网站）",
+      "date": "2026-05-27",
+      "claim": "提示起重机械关注气象条件，超出作业规定时停工，落实防风与检查。",
+      "scope": "外地官方安全提示，仅作场景设计参考，不替代金桥所在地规章和设备要求。"
+    },
+    {
+      "id": "shenyang-joint-drill-20250617",
+      "title": "沈阳铁路监管局组织开展危险货物泄漏应急救援演练",
+      "url": "https://www.nra.gov.cn/zzjg/jgj/syjd/zwxx/202506/t20250617_349030.shtml",
+      "publisher": "沈阳铁路监督管理局",
+      "date": "2025-06-17",
+      "claim": "通过情景模拟、岗位扮演检验险情发现、初期处置、应急响应、联合救援和后期处置的跨单位协同。",
+      "scope": "仅借鉴岗位回执和协同评估方法；案例发生在东陵油库，不据此认定金桥办理危货，也不复制乙醇泄漏场景。"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "repair-relay",
+      "title": "金桥箱修接力：待修箱到修竣返空",
+      "goal": "把破损箱、维修优先级、修竣核验与返空安排放在同一张协作清单上，找出等待发生在哪一环。",
+      "trigger": "收到一只待修空箱的演示报送；存在后续用箱节点，需要箱管、维修方和货运岗位衔接。",
+      "exception": {"trigger":"修竣质量复核未通过","blockedAction":"将箱标记可用并安排返空","requiredAction":"记录不通过原因，回到维修待处理；质量岗位复核处理结果，再由货运计划岗位确认后续安排","resumeCondition":"质量复核与货运安排确认齐备，当前步骤勾选项重新确认","reviewerRole":"修箱方质量岗位","dispatcherRole":"货运计划岗位"},
+      "roles": ["箱管岗位", "货运计划岗位", "修箱方计划岗位", "修箱方质量岗位", "现场货运核验岗位"],
+      "assets": ["待修空箱演示记录", "维修计划单", "质量核验记录", "返空安排", "三维区域索引"],
+      "objectBindingStatus": "现有区域仅用于讲解定位；未确认金桥箱修点在当前模型内的准确位置，不新增虚构修箱车间。",
+      "steps": [
+        {
+          "id": "repair-register", "title": "登记待修箱", "objectId": "front_apron", "mode": "catalog",
+          "action": "关联演示箱号、发现时间、损伤说明及照片凭据，把待修状态与可用箱清单分开。",
+          "confirmation": "箱管岗位核对箱号、损伤记录和位置描述。",
+          "checks": [{"id":"identity","label":"箱号与报送记录一致","role":"箱管岗位"},{"id":"damage","label":"损伤与位置依据已记录","role":"箱管岗位"}],
+          "risk": "只有图片或口头报修，后续计划无法准确对应同一只箱。",
+          "outcome": "形成可追溯的待修记录，箱状态保持待修。",
+          "exception": {"trigger":"箱号缺失或冲突","blockedAction":"进入正式排修清单","requiredAction":"补核身份并保留差异记录","resumeCondition":"箱管岗位完成唯一箱号核对","reviewerRole":"箱管岗位","dispatcherRole":"货运计划岗位"},
+          "sourceIds": ["jinqiao-repair-20260825","freight-rules-2026"]
+        },
+        {
+          "id": "repair-priority", "title": "匹配用箱需求", "objectId": "b1_01", "mode": "catalog",
+          "action": "演示把紧急程度与后续用箱时间关联，显示信息不全和计划冲突的记录。",
+          "confirmation": "货运计划岗位确认需求依据与本轮排序。",
+          "checks": [{"id":"demand","label":"用箱需求和计划节点已有依据","role":"货运计划岗位"},{"id":"priority","label":"优先级已由负责岗位确认","role":"货运计划岗位"}],
+          "risk": "优先级由页面自动猜测，影响真实客户和运输安排。",
+          "outcome": "生成待对接的维修排序建议，保留人工调整原因。",
+          "sourceIds": ["jinqiao-repair-20260825"]
+        },
+        {
+          "id": "repair-plan", "title": "确认维修排程", "objectId": "b1_01", "mode": "catalog",
+          "action": "用一次协作会议演示安排维修批次、责任岗位及预计完成节点，明确需等待的资源。",
+          "confirmation": "维修方确认承接计划，货运岗位确认交接安排。",
+          "checks": [{"id":"accepted","label":"维修方已承接本轮计划","role":"修箱方计划岗位"},{"id":"handover","label":"双方交接安排一致","role":"货运计划岗位"}],
+          "risk": "货运计划已发布而维修方尚未接单，形成新的等待。",
+          "outcome": "产生双方可核对的排修计划，预计时间与实际时间分列。",
+          "sourceIds": ["jinqiao-repair-20260825"]
+        },
+        {
+          "id": "repair-quality", "title": "修竣质量核验", "objectId": "front_apron", "mode": "catalog",
+          "action": "演示维修方提交修竣记录，再由对应岗位确认箱况与可使用范围；技术检修由具备资格的业务方执行。",
+          "confirmation": "维修质量记录齐备，现场货运核验结论明确。",
+          "checks": [{"id":"repairrecord","label":"修竣与质量记录已关联","role":"修箱方质量岗位"},{"id":"boxfitness","label":"箱况及可使用范围已核验","role":"现场货运核验岗位"}],
+          "risk": "维修完成被直接当作可发运，缺少质量与适用范围确认。",
+          "outcome": "合格记录转为待安排返空；不合格记录退回处理并保留原记录。",
+          "exception": {"trigger":"修竣核验未通过或资料缺失","blockedAction":"转为可用或安排发出","requiredAction":"回到维修待处理并补充核验记录","resumeCondition":"质量记录与现场核验均通过","reviewerRole":"修箱方质量岗位","dispatcherRole":"现场货运核验岗位"},
+          "sourceIds": ["jinqiao-repair-20260825","freight-rules-2026"]
+        },
+        {
+          "id": "repair-return", "title": "衔接返空与运能", "objectId": "railway_operation", "mode": "business",
+          "action": "将修竣箱与候选返空方向、运能和交接时间关联，提示尚未落实的条件。",
+          "confirmation": "有权货运岗位确认可执行的运输安排；铁路调度程序独立办理。",
+          "checks": [{"id":"destination","label":"返空方向与接收安排已确认","role":"货运计划岗位"},{"id":"transport","label":"运输安排已由有权岗位确认","role":"货运计划岗位"}],
+          "risk": "看见车辆或动画到位就误认为已有真实运输计划。",
+          "outcome": "形成待交接的返空安排，页面仅记录业务确认。",
+          "sourceIds": ["jinqiao-repair-20260825","freight-rules-2026"]
+        },
+        {
+          "id": "repair-close", "title": "回执与等待复盘", "objectId": "railway_operation", "mode": "catalog",
+          "action": "用实际交接回执关闭演示工单，将登记、承接、修竣核验和返空的各段等待分别列出。",
+          "confirmation": "交接凭据与箱号一致，未完成项继续保留。",
+          "checks": [{"id":"receipt","label":"交接回执已核对","role":"现场货运核验岗位"},{"id":"closure","label":"未完成事项已逐项说明","role":"箱管岗位"}],
+          "risk": "只统计修好多少，无法发现修竣后仍在堆场等待的箱。",
+          "outcome": "生成箱修协作复盘；未经实际记录计算的效率指标显示待采集。",
+          "sourceIds": ["jinqiao-repair-20260825"]
+        }
+      ],
+      "metrics": [
+        {"label":"待修至承接等待","definition":"维修方承接时间减待修登记时间；报告样本数、中位数和P90。","unit":"小时","measured":false},
+        {"label":"修竣后滞留","definition":"实际交接发出时间减修竣核验通过时间；未发出记录单独列龄期。","unit":"小时","measured":false},
+        {"label":"计划兑现率","definition":"约定节点前完成的已到期维修任务数除以全部到期任务数；改期和取消另列。","unit":"%","measured":false}
+      ],
+      "demoBoundary": "场景以金桥公开报道为业务背景；表单、步骤拆分及勾选项是本项目的产品设计，不是报道原有制度。没有接入箱管或维修系统；待修箱、人员及维修空间不当作实测事实。",
+      "sourceIds": ["jinqiao-repair-20260825","freight-rules-2026"]
+    },
+    {
+      "id": "arrival-handover",
+      "title": "到达接卸：车、箱、货与交接一致",
+      "goal": "让值班管理者看到货物在哪个环节等待、谁应确认、交接异常是否关闭。",
+      "trigger": "一笔普通货物演示任务到达，计划接卸并短驳至指定交接位置；可注入箱号或封印信息不一致。",
+      "exception": {"trigger":"箱号或封印与单据不一致","blockedAction":"直接确认验收并继续交付","requiredAction":"留存差异记录，由货运联络岗位形成处置结论，再由装卸负责人确认后续安排","resumeCondition":"差异处置与作业恢复确认齐备，当前步骤勾选项重新确认","reviewerRole":"铁路货运联络岗位","dispatcherRole":"装卸负责人"},
+      "roles": ["铁路货运联络岗位", "装卸负责人", "设备操作岗位", "场内交通协调岗位", "仓储交接岗位"],
+      "assets": ["演示运单", "铁路货车与集装箱", "A-E01 一号门式起重机", "场内短驳任务", "交接单"],
+      "objectBindingStatus": "模型目录支持位置讲解；实际铁路股道、交接线、作业范围和通行许可尚待现场确认。",
+      "steps": [
+        {
+          "id":"arrival-plan","title":"核对到达与接卸计划","objectId":"railway_operation","mode":"business",
+          "action":"把运单、车号、箱号、货物名称、重量及交接位置分别展示，按任务关联。",
+          "confirmation":"货运联络岗位确认业务资料与作业安排一致。",
+          "checks":[{"id":"documents","label":"运单、车号与箱号已对应","role":"铁路货运联络岗位"},{"id":"destination","label":"目的交接位置和责任方已确认","role":"铁路货运联络岗位"}],
+          "risk":"把箱号当车号，或用动画位置替代业务交接地点。",
+          "outcome":"任务具备进一步检查所需信息。",
+          "sourceIds":["freight-rules-2026","xian-smart-yard-20260807"]
+        },
+        {
+          "id":"arrival-protection","title":"等待作业条件确认","objectId":"railway_operation","mode":"business",
+          "action":"展示铁路车辆停稳、按现场规章落实防护以及交接检查回执；不以播放到某一秒自动认定条件成立。",
+          "confirmation":"有权铁路岗位完成相关程序，装卸负责人收到允许开展作业的确认。",
+          "checks":[{"id":"railpermission","label":"有权岗位已确认可开展本次装卸","role":"铁路货运联络岗位"},{"id":"protection","label":"现场防护和交接检查已落实","role":"装卸负责人"}],
+          "risk":"列车动画停止后就开始吊装，掩盖真实作业衔接。",
+          "outcome":"仅在确认齐备后进入吊装准备。",
+          "sourceIds":["freight-rules-2026","freight-checks-2017"]
+        },
+        {
+          "id":"arrival-check","title":"核对箱况及交接差异","objectId":"gantry_main","mode":"business",
+          "action":"核对箱号、封印和外观记录；异常形成独立待办并关联凭据。",
+          "confirmation":"货运与接卸岗位确认检查结果，异常已有业务处置结论。",
+          "checks":[{"id":"condition","label":"箱号、封印与外观检查已有记录","role":"铁路货运联络岗位"},{"id":"difference","label":"差异已处理或确认无差异","role":"装卸负责人"}],
+          "risk":"未经检查直接记为验收完成，无法追溯货损和交接差异。",
+          "outcome":"正常进入接卸；异常保持待处理，不能直接关闭。",
+          "exception":{"trigger":"箱号或封印与单据不一致","blockedAction":"直接确认验收并继续交付","requiredAction":"保留证据并由货运岗位按正式流程处理差异","resumeCondition":"形成可继续作业的业务结论并保留记录","reviewerRole":"铁路货运联络岗位","dispatcherRole":"装卸负责人"},
+          "sourceIds":["freight-rules-2026","freight-checks-2017"]
+        },
+        {
+          "id":"arrival-lift","title":"接卸与接箱确认","objectId":"gantry_main","mode":"business",
+          "action":"展示设备可用、人员及作业区检查、车箱匹配等条件；门机与短驳车辆按确认顺序衔接。",
+          "confirmation":"装卸负责人确认设备与任务相容，操作岗位确认按本机规程完成接卸。",
+          "checks":[{"id":"equipment","label":"设备能力和状态已核验","role":"装卸负责人"},{"id":"secured","label":"接箱及离开吊装区条件已确认","role":"设备操作岗位"}],
+          "risk":"默认所有门机可处理任意箱重，或吊具未脱离就驶离。",
+          "outcome":"接卸完成后进入待通行状态。",
+          "sourceIds":["crane-tsg51-2023","crane-tsg51-amendment1","equipment-responsibility-2023"]
+        },
+        {
+          "id":"arrival-shuttle","title":"短驳通行与排队","objectId":"front_apron","mode":"sitewide",
+          "action":"示意待通行车辆与人员分开等待，显示路线是否被占用；由现场负责岗位决定通行次序。",
+          "confirmation":"通道状态已核实，涉及铁路作业的交叉点由对应有权岗位确认。",
+          "checks":[{"id":"route","label":"本次通行路径已核实可用","role":"场内交通协调岗位"},{"id":"permission","label":"涉及的通行确认均已完成","role":"场内交通协调岗位"}],
+          "risk":"道路画得通就当作现场可通；普通车辆抢在作业或人员前进入。",
+          "outcome":"车辆抵达交接位置，状态仍为待交接。",
+          "sourceIds":["xian-smart-yard-20260807"]
+        },
+        {
+          "id":"arrival-receipt","title":"交接签认与任务复盘","objectId":"red_canopies_rear","mode":"catalog",
+          "action":"再次对应箱号和位置，确认接收人及交接凭据；把排队、设备等待和差异处理分开统计。",
+          "confirmation":"收发双方完成正式交接，相关差异已按业务要求处理。",
+          "checks":[{"id":"received","label":"交接凭据及接收岗位已确认","role":"仓储交接岗位"},{"id":"differences","label":"未闭环事项已说明","role":"铁路货运联络岗位"}],
+          "risk":"车辆抵达即自动记为入库或货物交付。",
+          "outcome":"凭据齐备的任务进入已交接，其他记录保持待办。",
+          "sourceIds":["freight-rules-2026"]
+        }
+      ],
+      "metrics":[
+        {"label":"作业等待时长","definition":"按等资料、等设备、等通道、等交接分段累计；只使用实际时间戳。","unit":"分钟","measured":false},
+        {"label":"交接差异关闭时长","definition":"业务确认差异关闭时间减首次登记差异时间，未关闭项单独列出。","unit":"分钟","measured":false},
+        {"label":"任务凭据完整率","definition":"按双方约定必填项和凭据检查完整的已完成任务数除以已完成任务总数。","unit":"%","measured":false}
+      ],
+      "demoBoundary":"业务流程参考现行规则及西安案例，场内场景为原创示例。未取得本站实际运单、股道作业方案、设备铭牌或门禁接口；现有三维动画不作为真实铁路调度与装卸作业指令。",
+      "sourceIds":["freight-rules-2026","freight-checks-2017","xian-smart-yard-20260807","crane-tsg51-2023","crane-tsg51-amendment1","equipment-responsibility-2023"]
+    },
+    {
+      "id":"weather-coordination",
+      "title":"门机停工：设备异常与全场作业重排",
+      "goal":"检验一台关键设备暂停后，待作业任务、短驳车辆、现场人员与检修岗位如何同步调整。",
+      "trigger":"吊装准备期间收到演示大风预警或设备异常报告；先暂停新任务，按本机规程处置进行中的作业。",
+      "exception":{"trigger":"设备异常或气象条件不满足作业要求","blockedAction":"继续吊装或自动恢复任务","requiredAction":"记录影响，维护岗位提交检查结论，再由装卸负责人复核人员、设备、区域与作业条件","resumeCondition":"检查结论与恢复确认齐备，当前步骤勾选项重新确认","reviewerRole":"设备维护岗位","dispatcherRole":"装卸负责人"},
+      "roles":["设备操作岗位","装卸负责人","设备维护岗位","场内交通协调岗位","值班管理岗位"],
+      "assets":["A-E01 一号门式起重机","受影响任务列表","等待区示意","维修记录","复核与恢复记录"],
+      "objectBindingStatus":"影响区域与等待点为演示标注；真实警戒范围、备用设备与道路承载能力待核验。",
+      "steps":[
+        {
+          "id":"weather-report","title":"记录异常与受影响设备","objectId":"gantry_main","mode":"business",
+          "action":"记录来源、设备、时间及数据新鲜度；实际安全保护独立生效，不等待网页或AI判断。",
+          "confirmation":"现场负责人收到异常报告并采取现场规定的即时措施。",
+          "checks":[{"id":"report","label":"设备、时间与异常来源已记录","role":"设备操作岗位"},{"id":"received","label":"现场负责人已收到报告","role":"装卸负责人"}],
+          "risk":"把传感器断线当作无异常，或为等待网页确认而延误处置。",
+          "outcome":"设备标记待核查，未开始的相关任务进入暂停。",
+          "sourceIds":["equipment-responsibility-2023","weather-equipment-20260528"]
+        },
+        {
+          "id":"weather-stop","title":"暂停任务并落实现场防护","objectId":"gantry_main","mode":"business",
+          "action":"展示操作岗位按本机规程处理正在进行的动作，负责人确认设备和作业区状态。",
+          "confirmation":"现场有权岗位确认设备已处于规定安全状态，受影响区域已有管控。",
+          "checks":[{"id":"safecondition","label":"设备按本机规程处置并确认状态","role":"设备操作岗位"},{"id":"zone","label":"受影响区域已落实管控","role":"装卸负责人"}],
+          "risk":"在故障或恶劣天气下为了赶任务继续作业。",
+          "outcome":"任务保持暂停，人员车辆按现场安排避开受影响区域。",
+          "exception":{"trigger":"设备安全状态未确认或天气条件仍不满足","blockedAction":"继续吊装或自动派往同一区域","requiredAction":"保留暂停状态并升级给现场负责人处理","resumeCondition":"现场防护、设备和作业条件均已复核","reviewerRole":"设备操作岗位","dispatcherRole":"装卸负责人"},
+          "sourceIds":["equipment-responsibility-2023","crane-tsg51-2023","crane-tsg51-amendment1","weather-equipment-20260528"]
+        },
+        {
+          "id":"weather-traffic","title":"调整等待与通行安排","objectId":"front_apron","mode":"sitewide",
+          "action":"汇总受影响车辆和人员，划出示意等待位置，避免队列进入检修或救援通道；显示需确认的交叉占用。",
+          "confirmation":"现场交通岗位确认通道占用与人员状态；铁路交叉作业依正式程序办理。",
+          "checks":[{"id":"people","label":"受影响人员与外来司机已获知安排","role":"场内交通协调岗位"},{"id":"access","label":"通道与等待位置已现场确认","role":"场内交通协调岗位"}],
+          "risk":"停机之后车辆仍按旧任务涌入，形成新的拥堵与人车交叉。",
+          "outcome":"以实际受影响范围组织等待，不默认全场疏散或所有车辆撤离。",
+          "sourceIds":["xian-smart-yard-20260807","shenyang-joint-drill-20250617"]
+        },
+        {
+          "id":"weather-replan","title":"重排受影响的任务","objectId":"b1_01","mode":"catalog",
+          "action":"按设备、截止节点和等待原因列出任务；可选延期，或在能力与条件核验后提出备用设备方案。",
+          "confirmation":"值班管理岗位确认调整，装卸负责人确认候选设备能力和作业条件。",
+          "checks":[{"id":"impact","label":"受影响任务及通知范围已核对","role":"值班管理岗位"},{"id":"candidate","label":"改派条件已核验或明确延期","role":"装卸负责人"}],
+          "risk":"系统自动把重箱改派给能力不明的设备，或用越线绕行解决拥堵。",
+          "outcome":"形成带理由的调整方案；没有可行条件的任务继续等待。",
+          "sourceIds":["equipment-responsibility-2023","crane-tsg51-2023"]
+        },
+        {
+          "id":"weather-review","title":"检查结果与恢复复核","objectId":"gantry_main","mode":"catalog",
+          "action":"关联维修或检查记录，核验设备、气象、人员、区域和计划条件；通过现场复核后才提交恢复建议。",
+          "confirmation":"维护岗位提供检查结果，有权负责人确认允许恢复；页面不解除真实设备保护。",
+          "checks":[{"id":"inspection","label":"维护或检查结果已关联","role":"设备维护岗位"},{"id":"restart","label":"有权负责人已确认恢复条件","role":"装卸负责人"}],
+          "risk":"风速回落或告警消失被直接当作可以恢复。",
+          "outcome":"复核通过后可恢复计划；不通过继续暂停并显示待办。",
+          "exception":{"trigger":"只有告警消失，没有检查与恢复确认","blockedAction":"重新开始作业","requiredAction":"补齐现场检查和有权负责人复核","resumeCondition":"检查结论与恢复确认齐备","reviewerRole":"设备维护岗位","dispatcherRole":"装卸负责人"},
+          "sourceIds":["equipment-responsibility-2023","crane-tsg51-2023","crane-tsg51-amendment1","weather-equipment-20260528"]
+        },
+        {
+          "id":"weather-replay","title":"回放协同与遗留事项","objectId":"b1_01","mode":"catalog",
+          "action":"按时间线查看谁收到通知、谁确认暂停、哪些任务改期、恢复依据是否齐备，并形成后续整改。",
+          "confirmation":"值班管理岗位核对未完成项与负责岗位。",
+          "checks":[{"id":"timeline","label":"关键回执时间线已核对","role":"值班管理岗位"},{"id":"followup","label":"遗留事项已分配负责岗位","role":"值班管理岗位"}],
+          "risk":"演练播放结束被当作实际恢复完成，发现的问题未进入管理待办。",
+          "outcome":"生成演示复盘记录；实际响应速度和作业损失待试点采集。",
+          "sourceIds":["equipment-responsibility-2023","shenyang-joint-drill-20250617"]
+        }
+      ],
+      "metrics":[
+        {"label":"异常通知确认时长","definition":"责任岗位确认时间减异常登记时间；同时列出未确认事项。","unit":"分钟","measured":false},
+        {"label":"影响任务重排时长","definition":"本轮调整方案确认时间减任务暂停时间；按异常类别分组。","unit":"分钟","measured":false},
+        {"label":"恢复记录完整率","definition":"关联检查结论、负责人确认及恢复时间的恢复记录数除以全部恢复记录数。","unit":"%","measured":false}
+      ],
+      "demoBoundary":"本场景为依据公开安全管理原则原创的交流推演，不是金桥既有预案。风速阈值、停机细节、机械防护方法和恢复程序必须以现场设备及制度为准；不播放真实碰撞或自动抢行。",
+      "sourceIds":["equipment-responsibility-2023","crane-tsg51-2023","crane-tsg51-amendment1","weather-equipment-20260528","xian-smart-yard-20260807","shenyang-joint-drill-20250617"]
+    }
+  ],
+  "highlights": [
+    {"title":"一份清单连到具体位置","currentEvidence":"现有25个目录对象可从设备、房屋与区域清单定位至三维模型，管理编号可检索。","managerValue":"领导巡查能从有什么直接进入在哪里、归谁管、有什么待办。","entryMode":"catalog","limitations":"对象编号与名称为演示编排；部分目录条目是建筑组合，不能直接视为建筑栋数。"},
+    {"title":"设备异常连到后续处理","currentEvidence":"台账已有巡检、报修、物料领用、应急资源和待办；同一对象关联业务记录。","managerValue":"查设备时同时看到要处理的事与负责岗位，减少分散查询。","entryMode":"catalog","limitations":"当前记录保存在本浏览器，尚无多人共享后台、正式账号和服务端审计。"},
+    {"title":"全场空间表达作业衔接","currentEvidence":"现有铁路、门机、车辆、区域锚点及全场通道示意，可表达等待、占用和交接顺序。","managerValue":"讨论堵点时可指向具体位置，解释为什么先暂停、再放行。","entryMode":"sitewide","limitations":"路线和通行窗口是演示规则；未经现场核验不能作为行车、消防或道路方案。"},
+    {"title":"把真实业务痛点变成推演","currentEvidence":"本次引入金桥箱修协同公开案例，将待修、排修、核验、返空拆成可检查的步骤。","managerValue":"交流时围绕金桥已有需求说明合作入口，便于挑选一个流程做试点。","entryMode":"practice","limitations":"流程是研究形成的演示，不表示已获得金桥业务方确认或已接入其系统。"},
+    {"title":"来源、估算与待核实分开呈现","currentEvidence":"已有台账字段来源与局部箱顶估算说明；新增业务场景保留公开出处和适用范围。","managerValue":"审查看得出哪些是实物证据、哪些是拟定内容，后续能逐项补齐正式资料。","entryMode":"catalog","limitations":"2025年局部影像估计不是2026年当前库存；人员状态和室内办公安排尚为拟定。"}
+  ],
+  "pilot": [
+    {"priority":"P0","title":"确定一个共同负责的试点流程","deliverable":"建议首先选择待修箱登记至修竣返空，明确物流中心、箱修方和项目方的业务负责人。","acceptance":"双方确认流程范围、状态口径、数据责任和不能由网页替代的正式程序。"},
+    {"priority":"P0","title":"核验位置和资产底册","deliverable":"确认正式名称、场界、出入口、修箱点位置与25个对象映射，采集必要控制点和现场照片。","acceptance":"业务方签认对象清单与位置；未核实对象在界面保留待核实。"},
+    {"priority":"P0","title":"取得最小业务样本与基线","deliverable":"提供经授权脱敏的箱号、破损时间、计划节点、承接、修竣、复核和交接时间；先记录现有流程基线。","acceptance":"约定观察周期和样本量；明确缺失数据、取消任务和异常任务的统计规则，不能只选顺利案例。"},
+    {"priority":"P0","title":"补上共享后台与身份权限","deliverable":"部署数据保存、账号角色、组织隔离、证据附件、操作日志和备份恢复；支持受控导入业务表。","acceptance":"跨两台设备可共享授权数据；无权限角色不能修改；恢复演示能取回已确认记录。"},
+    {"priority":"P1","title":"先人工回执，再接一个可信数据源","deliverable":"用表单与移动端照片跑通协作；再按授权接入一个箱管、门禁或设备状态来源，标注更新时间和离线状态。","acceptance":"同一记录不重建、不串箱；离线明确提示；原有铁路及设备安全系统保持独立权限。"},
+    {"priority":"P1","title":"完成对照验收与示范复制包","deliverable":"同口径比较等待时长、计划兑现、回执完整度，输出流程、字段字典、部署维护说明和培训材料。","acceptance":"使用实际样本报告前后分布、样本数和异常原因；无基线时只报采集完成度，不承诺节约金额或固定提效比例。"}
+  ]
+}

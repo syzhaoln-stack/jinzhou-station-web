@@ -33,3 +33,5 @@
 首次发布需先将仓库 Pages 的构建来源设为 GitHub Actions。静态网站提供交互、配音章节、现有成片播放和画面下载；生成新的 MP4 仍需要本地制作环境。
 
 Third-party library notices are included in the published bundle at `review/vendor/LICENSE`.
+
+本轮发布复用已校验的基础版本模型，叠加 `overlay/` 中的文本更新。`overlay-manifest.json` 与完整网站清单逐项核验新旧差异及最终文件，基础 ZIP、差异清单和完整网站清单均绑定校验值；网页内容对应工程提交 `ddb7deaaca7beb903fc9b7f4a38f9119c2730629`。

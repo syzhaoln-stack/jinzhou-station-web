@@ -1,0 +1,31 @@
+body[data-mode='cooperation'] #story-dock,body[data-mode='cooperation'] #drill-metrics{display:none!important}
+body[data-mode='cooperation'] #context-panel{width:300px;max-height:calc(100% - 40px)}
+.presentation[data-mode='cooperation'] #context-panel{display:block!important;top:80px;max-height:calc(100% - 100px)}
+body[data-mode='cooperation'] #scene-status{bottom:12px}
+#cooperation-card{right:20px;top:80px;width:354px;max-height:calc(100% - 105px);overflow:auto;padding:21px;scrollbar-width:thin}
+#cooperation-card h2{font-size:22px;font-weight:500;line-height:1.45;margin:14px 0}
+.practice-card-heading{display:flex;gap:8px;justify-content:space-between;align-items:center;font-size:10px;color:#547b79}
+.practice-card-heading b{background:#e3f1ed;color:#2a695b;padding:5px 7px;white-space:nowrap;border-radius:4px;font-weight:500}
+.practice-card-heading b.hold{background:#fae9d6;color:#935116}
+.practice-action,.practice-goal{font-size:12px;line-height:1.85;color:#4f6c71}
+.practice-progress{display:flex;gap:14px;align-items:baseline;background:#eaf1ee;border-radius:6px;padding:12px 15px;color:#3e6b60;margin-top:16px}
+.practice-progress strong{font:22px Consolas,monospace}.practice-progress span{font-size:11px}
+.practice-stages{list-style:none;padding:8px 0;margin:6px 0 12px}.practice-stages li{display:flex;gap:10px;padding:12px 9px;border-left:2px solid #d9e5e1;margin-left:9px;line-height:1.5}
+.practice-stages li>span{font:12px Consolas,monospace;min-width:19px;margin-top:3px;color:#889e96}.practice-stages strong{font-size:12px;font-weight:500}.practice-stages small{display:block;font-size:10px;color:#718a80;margin-top:4px}
+.practice-stages .current{border-color:#277568;background:#e3eeea;border-radius:0 5px 5px 0}.practice-stages .current>span,.practice-stages .done>span{color:#1e7762}
+.practice-risk{padding:12px 13px;background:#edf1f2;border-radius:6px;font-size:11px;line-height:1.7;margin:14px 0}.practice-risk strong{font-weight:500;color:#43646e}.practice-risk p{margin:5px 0 0}
+.practice-checks{border:0;margin:18px 0;padding:0}.practice-checks legend{font-size:11px;color:#55797a;margin-bottom:5px}.practice-checks label,.practice-dispatch{display:flex;gap:9px;align-items:flex-start;padding:10px 0;font-size:12px;line-height:1.6}.practice-checks input,.practice-dispatch input{accent-color:#277568;margin-top:4px;flex-shrink:0;width:16px;height:16px}.practice-checks small,.practice-dispatch small{display:block;color:#7e938e;font-size:10px;margin-top:2px}
+#cooperation-card textarea{width:100%;font-size:12px;line-height:1.65;font-family:inherit;border:1px solid #c5d7d1;border-radius:6px;padding:10px;resize:vertical;min-height:68px;color:#254b50;background:#fff}
+#cooperation-card .field-label{font-size:11px;line-height:1.7;margin:10px 0 6px;display:block}
+#practice-case{width:100%;font-size:12px;white-space:normal}.practice-incident{width:100%;text-align:left;background:#fcf2e8;border-color:#ead1b1;color:#8a581f;font-size:11px}
+.practice-details{border-top:1px solid #dce5e0;padding:12px 0;margin-top:8px;font-size:11px;line-height:1.8;color:#5f7b71}.practice-details summary{cursor:pointer;color:#365e59;font-weight:500}.practice-details a{display:block;color:#216d75;margin:9px 0;overflow-wrap:anywhere}.practice-details p{margin:8px 0}
+.practice-brief{display:block;color:#28716b;font-size:11px;text-underline-offset:4px;line-height:1.8;margin-top:9px}
+.practice-hold{border-left:3px solid #c38943;background:#fff2df;padding:13px;margin:15px 0;color:#79511f;font-size:12px;line-height:1.8}.practice-hold p{margin:6px 0}.practice-hold small{font-size:11px}
+.practice-reviewed,.practice-finished{background:#e4f1e8;border-radius:6px;padding:13px;font-size:12px;line-height:1.8;color:#2c6a54}
+.practice-log{padding:0;list-style:none;max-height:230px;overflow:auto}.practice-log li{padding:8px 0;border-bottom:1px solid #e1e9e5}.practice-log time{display:block;font:10px Consolas,monospace;color:#8c9f96}.practice-log strong{display:block;font-weight:500}.practice-log small{font-size:10px}
+#cooperation-map-note{position:absolute;bottom:25px;left:342px;right:396px;background:#f8fcf2ec;padding:13px 16px;border-radius:8px;box-shadow:0 2px 16px #244b4220;pointer-events:none;max-width:440px}#cooperation-map-note strong{display:block;font-size:12px;font-weight:500;color:#315d52}#cooperation-map-note span{display:block;font-size:10px;color:#73897d;line-height:1.8;margin-top:6px}
+.practice-entry{display:block;border:1px solid #b6d6ce;padding:10px;margin:10px 0;border-radius:6px;background:#eaf3ef;text-align:left;color:#245d55;font-size:12px;text-decoration:none}
+@media(max-width:1100px){body[data-mode='cooperation'] #context-panel{width:258px}#cooperation-card{width:320px}#cooperation-map-note{left:300px;right:360px}}
+@media(max-width:800px){body[data-mode='cooperation'] #context-panel{left:12px;top:64px;width:220px;max-height:36%}#cooperation-card{top:auto;bottom:12px;left:12px;right:12px;width:auto;max-height:47%;padding:16px}#cooperation-map-note{display:none}body[data-mode='cooperation'] #detail-panel{z-index:6}}
+@media(max-width:800px){.presentation[data-mode='cooperation'] #context-panel{top:70px;max-height:32%}}
+@media(prefers-reduced-motion:reduce){#cooperation-card *,#cooperation-controls *{transition:none}}
