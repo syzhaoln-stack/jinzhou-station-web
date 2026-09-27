@@ -1,5 +1,11 @@
 # 金桥铁路物流中心三维演示
 
+[打开合作交流页](https://syzhaoln-stack.github.io/jinzhou-station-web/review/briefing.html)：无需下载三维模型，查看场站区位与影像链接、现有亮点、真实业务案例和试点补充建议。
+
+[进入实务推演](https://syzhaoln-stack.github.io/jinzhou-station-web/review/operations.html?part=cooperation&scenario=repair-relay)：金桥箱修接力、到达接卸交接、门机停工重排，18步由岗位确认和回执推进，异常经处置复核与单独恢复确认后继续。支持推演记录导出。加载进度保持0–100%，首次场景绘制完成才显示100%。
+
+位置采用WGS84航拍范围参考中心，正式门牌、接待入口、场界和修箱点位置待核实；场景依据公开资料原创设计，尚未接入真实业务或正式岗位认证。
+
 [打开设备台账](https://syzhaoln-stack.github.io/jinzhou-station-web/review/operations.html?part=catalog)：统一查看25个已编号对象、物料说明、六层十二间办公室与24位虚构人员，并集成档案、巡检维保、报修、库存领用、排班、房间、应急、待办、导出和操作记录。记录保存于当前浏览器，权限为演示切换。A2局部可见箱顶约85–95个，依据2025年4月29日航拍，不是全场当前箱数。
 
 以真实倾斜摄影三维模型为基础，展示场站空间、铁路来货、门机转运、人车协同、安防出入口和应急演练。建筑、门机、门禁和局部地面修复可与原貌切换对照。
